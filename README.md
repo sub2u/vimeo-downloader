@@ -27,7 +27,7 @@ Attempts to download a video from the given url. Returns a readable stream. `opt
 * `format` - Default it download the mp4 format
 
 ```js
-// Example with `filter` option.
+// Example with `quality` option.
 vidl(url, { quality: '360p' })
   .pipe(fs.createWriteStream('vide.mp4'));
 ```
