@@ -2,9 +2,8 @@
 
 Yet another vimeo downloading module. This time written with only Javascript and a more node-friendly streaming interface.
 
-[![Build Status](https://secure.travis-ci.org/fent/node-ytdl-core.svg)](http://travis-ci.org/fent/node-ytdl-core)
-[![Dependency Status](https://gemnasium.com/fent/node-ytdl-core.svg)](https://gemnasium.com/fent/node-ytdl-core)
-[![codecov](https://codecov.io/gh/fent/node-ytdl-core/branch/master/graph/badge.svg)](https://codecov.io/gh/fent/node-ytdl-core)
+[![Build Status](https://secure.travis-ci.org/fent/node-ytdl-core.svg)](http://travis-ci.org/sub2u/node-ytdl-core)
+
 
 
 # Usage
