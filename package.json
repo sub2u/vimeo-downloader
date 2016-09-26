@@ -1,6 +1,6 @@
 {
   "name": "vimeo-downloader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "downloading and streming vimeo videos in pure javascript.",
   "main": "lib/index.js",
   "scripts": {
