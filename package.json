@@ -1,0 +1,34 @@
+{
+  "name": "vimeo-downloader",
+  "version": "1.0.0",
+  "description": "downloading and streming vimeo videos in pure javascript.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "istanbul cover node_modules/.bin/_mocha -- -t 16000 test/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sub2u/vimeo-downloader.git"
+  },
+  "keywords": [
+    "vimeo",
+    "video",
+    "download",
+    "stream",
+    "vimeo-api"
+  ],
+  "author": "SubbaRao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sub2u/vimeo-downloader/issues"
+  },
+  "homepage": "https://github.com/sub2u/vimeo-downloader#readme",
+  "dependencies": {
+    "assert-diff": "^1.0.1",
+    "istanbul": "*",
+    "mocha": "*",
+    "nock": "*",
+    "stream-equal": "~0.1.8",
+    "youtube-dl": "^1.11.1"
+  }
+}
