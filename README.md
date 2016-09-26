@@ -2,7 +2,7 @@
 
 Yet another vimeo downloading module. This time written with only Javascript and a more node-friendly streaming interface.
 
-[![Build Status](https://secure.travis-ci.org/fent/node-ytdl-core.svg)](http://travis-ci.org/sub2u/node-ytdl-core)
+[![Build Status](https://secure.travis-ci.org/sub2u/vimeo-downloader.svg)](http://travis-ci.org/sub2u/vimeo-downloader)
 
 
 
