@@ -1,4 +1,5 @@
 node_modules/*
+coverage/*
 *.log
 *.mp4
 .DS_Store
