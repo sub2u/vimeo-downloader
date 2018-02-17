@@ -1,6 +1,6 @@
 {
   "name": "vimeo-downloader",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "downloading and streming vimeo videos in pure javascript.",
   "main": "lib/index.js",
   "scripts": {
@@ -29,7 +29,7 @@
     "mocha": "*",
     "nock": "*",
     "stream-equal": "~0.1.8",
-    "youtube-dl": "^1.11.1",
+    "youtube-dl": "^1.12.1",
     "code": "1.x.x",
     "lab": "7.x.x"
   }
