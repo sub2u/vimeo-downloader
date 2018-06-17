@@ -18,7 +18,7 @@ vidl('https://vimeo.com/183482793')
 
 
 # API
-### ytdl(url, options)
+### vidl(url, options)
 
 Attempts to download a video from the given url. Returns a readable stream. `options` can have the following keys
 
