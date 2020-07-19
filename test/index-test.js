@@ -21,19 +21,18 @@ var expect = Code.expect;
 
 describe('Proxy', function () {
 
-    it('have qulity', function (done) {
+    it('have qulity', function () {
 
         let stream = vidl('https://vimeo.com/183482793', { quality: '360p' });
         
         expect(stream).to.exist();
-        done();
     });
 
 });
 
 describe('Error handling', function () {
 
-    it('should have HTTP Error 404', function (done) {
+    it('should have HTTP Error 404', function () {
 
         let stream = vidl('https://vimeo.com/183482793', { quality: '360p', format: 'mp4' });
 
@@ -47,7 +46,6 @@ describe('Error handling', function () {
         stream.on('finish', function(){
             //Ok here, I launch my finish event.
         });
-        done();
         // stream.pipe(fs.createWriteStream(filename));
     });
 
